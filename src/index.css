@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: sans-serif;
-  background: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(238, 197, 170);
   color: #ddd;
   text-align: center;
 }
@@ -15,23 +15,24 @@ h1{
   letter-spacing: 2px;
 }
 h2{
-  color: #ffff57;
+  color: #1884f8;
   font-size: 2em;
   letter-spacing: 2px;
 }
 button{
   margin: 0 10px;
   background: transparent;
-  border: 3px solid #ccc;
-  border-radius: 20px;
+  border: 3px solid rgb(248, 128, 128);
+  border-radius: 14px;
   padding: 10px;
-  color: #ccc;
+  color: rgb(247, 10, 10);
   font-size: 1.2em;
   cursor: pointer;
+  font-weight: bold;
 }
 button:hover{
-  color: #fff;
-  border-color: #fff;;
+  color: rgb(238, 106, 106);
+  border-color: rgb(252, 66, 66);;
 }
 .content{
   text-align: left;
@@ -52,4 +53,9 @@ button:hover{
 .card h3 {
   margin: 16px 0;
   color:#ffff57;
+}
+
+span {
+  color:black;
+  font-weight: bold;
 }
