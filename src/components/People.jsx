@@ -10,11 +10,11 @@ const fetchpeopleData = async () => {
 const People = () => {
 
     const {data, status} = useQuery('people', fetchpeopleData);
-    console.log(data);
+    
     return (
         <div>
             <h2 style={{display:'flex', align:'center'}}>Inside people</h2>
-            {/* <p>{status}</p> */}
+            
             {
                 status === 'loading' && (
                     <div>Please wait, loading your data....</div>

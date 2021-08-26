@@ -16,15 +16,10 @@ const Planet = () => {
         //cacheTime:10,
         //onSuccess : () => console.log('Data fetched without any problem')
     });
-    console.log(data);
+    
     return (
         <div>
             <h2 style={{display:'flex', align:'center'}}>Inside Planet</h2>
-            {/* <button onClick={()=>setPages(1)}>Page 1</button>
-            <button onClick={()=>setPages(2)}>Page 2</button>
-            <button onClick={()=>setPages(3)}>Page 3</button>
-            <button onClick={()=>setPages(4)}>Page 4</button> */}
-            {/* <p>{status}</p> */}
             {
                 status === 'loading' && (
                     <div>Please wait, loading your data....</div>
